@@ -61,25 +61,14 @@
       ]
     }
   ],
-  "volunteer": [{
-  "organization": "",
-  "position": "",
-  "url": "",
-  "startDate": "",
-  "endDate": "",
-  "summary": "",
-  "highlights": [
-    ""
-  ]
-}],
   "education": [
     {
       "institution": "Scalda college",
       "url": "https://www.scalda.nl/",
       "area": "IT Engineer",
       "studyType": "MBO",
-      "startDate": "",
-      "endDate": "",
+      "startDate": "2008",
+      "endDate": "2012",
       "courses": [
         "ICT Beheer niveau 4"
       ]
