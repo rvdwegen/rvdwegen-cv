@@ -1,4 +1,4 @@
-name: Generate index.html file from resume.json source and upload to Azure Blob
+name: Generate resume
  
 on: workflow_dispatch
 
