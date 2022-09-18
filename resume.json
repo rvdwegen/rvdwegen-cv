@@ -28,7 +28,7 @@
       },
       {
         "network": "Website",
-        "username": "rvdwegen.",
+        "username": "rvdwegen",
         "url": "https://cv.rvdwegen.nl"
       }
     ]
@@ -61,6 +61,17 @@
       ]
     }
   ],
+  "volunteer": [{
+  "organization": "",
+  "position": "",
+  "url": "",
+  "startDate": "",
+  "endDate": "",
+  "summary": "",
+  "highlights": [
+    ""
+  ]
+}],
   "education": [
     {
       "institution": "Scalda college",
