@@ -1,4 +1,4 @@
-name: Publish resume in JSONResume format as Github Page
+name: Publish resume in JSONResume format as Azure storage static website
  
 on: push
 
@@ -19,7 +19,7 @@ jobs:
         name: Export resume as HTML
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
-          theme: elegant
+          theme: Elegant
           resume_filepath: resume.json
           # modifies the index.html in-place
           output_filepath: index.html
