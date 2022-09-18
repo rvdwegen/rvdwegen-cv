@@ -64,3 +64,21 @@ jobs:
           htmlFile: index.html
           outputFile: resume.pdf
           pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
+      - name: Commit converted PDF
+        id: commit-pdf
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          if [ -n "$(git status --porcelain resume.pdf)" ]; then
+            git add resume.pdf
+            git commit -m "[ci skip] chore(resume.pdf): update PDF export."
+            echo ::set-output name=exit_code::0
+          else
+            echo ::set-output name=exit_code::1
+          fi
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        if: steps.commit.outputs.exit_code == 0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
