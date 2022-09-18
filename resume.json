@@ -39,7 +39,7 @@
       "position": "Support Engineer",
       "url": "https://officegrip.nl",
       "startDate": "2021-03-01",
-      "endDate": "YYYY-mm-dd",
+      "endDate": "",
       "summary": "Fill in some compelling but short line of text",
       "highlights": [
         "Microsoft 365 management",
@@ -67,6 +67,8 @@
       "url": "https://www.scalda.nl/",
       "area": "IT Engineer",
       "studyType": "MBO",
+      "startDate": "DDDD-mm-yy",
+      "endDate": "DDDD-mm-yy",
       "courses": [
         "ICT Beheer niveau 4"
       ]
