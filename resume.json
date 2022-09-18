@@ -67,8 +67,8 @@
       "url": "https://www.scalda.nl/",
       "area": "IT Engineer",
       "studyType": "MBO",
-      "startDate": "DDDD-mm-yy",
-      "endDate": "DDDD-mm-yy",
+      "startDate": "",
+      "endDate": "",
       "courses": [
         "ICT Beheer niveau 4"
       ]
