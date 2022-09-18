@@ -19,7 +19,7 @@ jobs:
         name: Export resume as HTML
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
-          theme: Elegant
+          theme: Kendall
           resume_filepath: resume.json
           # modifies the index.html in-place
           output_filepath: index.html
