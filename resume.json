@@ -97,7 +97,8 @@
           "name":"Automation",
           "keywords":[
              "Powershell",
-             "LazyIT"
+             "Github Actions",
+             "Azure Functions"
           ]
        },
        {
