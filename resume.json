@@ -1,0 +1,118 @@
+{
+    "basics":{
+       "name":"Roel van der Wegen",
+       "label":"Automation enthusiast",
+       "image":"https://static.rvdwegen.nl/data/avatar.png",
+       "email":"sollicitatie@rvdwegen.nl",
+       "phone":"n/a",
+       "url":"https://cv.rvdwegen.nl",
+       "summary":"A summary of Roel van der Wegen",
+       "location":{
+          "address":"Antwerpsestraatweg 365",
+          "postalCode":"4625AA",
+          "city":"Bergen op Zoom",
+          "countryCode":"NL",
+          "region":"Noord-Brabant"
+       },
+       "profiles":[
+        {
+             "network":"Github",
+             "username":"rvdwegen",
+             "url":"https://github.com/rvdwegen"
+        },
+        {
+            "network":"LinkedIn",
+            "username":"roel-van-der-wegen",
+            "url":"https://www.linkedin.com/in/roel-van-der-wegen-b3850616a/"
+        },
+        {
+            "network":"Website",
+            "username":"rvdwegen",
+            "url":"https://cv.rvdwegen.nl"
+        }
+       ]
+    },
+    "work":[
+       {
+          "name":"OfficeGrip B.V.",
+          "position":"Support Engineer",
+          "url":"https://officegrip.nl",
+          "startDate":"YYYY-mm-dd",
+          "endDate":"YYYY-mm-dd",
+          "summary":"Description…",
+          "highlights":[
+             "Thing"
+          ]
+       },
+       {
+          "name":"Company",
+          "position":"Title",
+          "url":"URL",
+          "startDate":"YYYY-mm-dd",
+          "endDate":"YYYY-mm-dd",
+          "summary":"Description…",
+          "highlights":[
+             "Thing"
+          ]
+       }
+    ],
+    "education":[
+       {
+          "institution":"Scalda college",
+          "url":"https://www.scalda.nl/",
+          "area":"IT Engineer",
+          "studyType":"MBO",
+          "startDate":"YYYY-mm-dd",
+          "endDate":"YYYY-mm-dd",
+          "score":"n/a",
+          "courses":[
+             "ICT Beheer niveau 4"
+          ]
+       }
+    ],
+    "skills":[
+       {
+          "name":"Scripting",
+          "level":"Medior",
+          "keywords":[
+             "Powershell",
+             "HTML",
+             "CSS"
+          ]
+       }
+    ],
+    "languages":[
+       {
+            "language":"Dutch",
+            "fluency":"Native speaker"
+       },
+       {
+            "language":"English",
+            "fluency":"Proficient"
+       }
+    ],
+    "interests":[
+       {
+          "name":"Automation",
+          "keywords":[
+             "Powershell",
+             "LazyIT"
+          ]
+       },
+       {
+          "name":"Gaming",
+          "keywords":[
+             "Shooter",
+             "FPS",
+             "RTS",
+             "WWII"
+          ]
+       }
+    ],
+    "references":[
+       {
+          "name":"n/a",
+          "reference":"n/a"
+       }
+    ]
+ }
