@@ -1,6 +1,10 @@
-name: Publish resume in JSONResume format as Azure storage static website
+# example GitHub workflow
+
+name: Publish resume in JSONResume format as Github Page
  
-on: push
+on:
+  push:
+    branches: [ master ]
 
 jobs:
   check_run:
@@ -17,7 +21,7 @@ jobs:
       - uses: kelvintaywl/action-jsonresume-export@v1
         name: Export resume as HTML
         with:
-          theme: Kendall
+          theme: elegant
           resume_filepath: resume.json
           # modifies the index.html in-place
           output_filepath: index.html
