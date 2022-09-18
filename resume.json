@@ -5,7 +5,7 @@
     "image": "https://static.rvdwegen.nl/data/avatar.png",
     "picture": "https://static.rvdwegen.nl/data/avatar.png",
     "email": "sollicitatie@rvdwegen.nl",
-    "phone": "n/a",
+    "phone": "On request",
     "url": "https://cv.rvdwegen.nl",
     "summary": "I'm a Netherlands based IT guy, tech enthusiast and scripter creating novel solutions to every day problems in the MSP space",
     "location": {
@@ -38,22 +38,26 @@
       "name": "OfficeGrip B.V.",
       "position": "Support Engineer",
       "url": "https://officegrip.nl",
-      "startDate": "YYYY-mm-dd",
+      "startDate": "2021-03-01",
       "endDate": "YYYY-mm-dd",
-      "summary": "Description…",
+      "summary": "Fill in some compelling but short line of text",
       "highlights": [
-        "Thing"
+        "Microsoft 365 management",
+        "Automation development",
+        "Script development"
       ]
     },
     {
-      "name": "Company",
-      "position": "Title",
-      "url": "URL",
-      "startDate": "YYYY-mm-dd",
-      "endDate": "YYYY-mm-dd",
-      "summary": "Description…",
+      "name": "Philip Morris International",
+      "position": "On-site support engineer",
+      "url": "https://www.pmi.com/",
+      "startDate": "2018-05-01",
+      "endDate": "2021-02-25",
+      "summary": "Fill in some compelling but short line of text",
       "highlights": [
-        "Thing"
+        "Devicemanagement",
+        "End user support",
+        "Script development"
       ]
     }
   ],
@@ -63,9 +67,6 @@
       "url": "https://www.scalda.nl/",
       "area": "IT Engineer",
       "studyType": "MBO",
-      "startDate": "YYYY-mm-dd",
-      "endDate": "YYYY-mm-dd",
-      "score": "n/a",
       "courses": [
         "ICT Beheer niveau 4"
       ]
@@ -131,8 +132,20 @@
   ],
   "references": [
     {
-      "name": "n/a",
-      "reference": "n/a"
+      "name": "Edwin Timmermans, Warehouse supervisor for DHL Supply Chain at Philip Morris International",
+      "reference": "The last couple of years I've worked together with Roel. We worked for different companies under the same umbrella but often needed each other's help. I found it very pleasant to work with Roel and could always count on a quick and neat solution for any challenges we had."
+    },
+    {
+      "name": "Kenneth Tobback, Teamlead on-site support for Econocom at Philip Morris International",
+      "reference": "Roel always showed a high degree of professionalism during the period we have worked together, he has a strong customer mind combined with pragmatical approach on solving complex ICT issues in both office and factory environments. He has been a reliable resource to deliver high standard service. I strongly believe he is an added value to any organization."
+    },
+    {
+      "name": "Clemens Michael, Supervisor Logistics & Warehousing at Philip Morris International",
+      "reference": "I got to know Roel as a true professional, but also a nice person to work with. His knowledge is at a high level, but most importantly he really understands and supports the internal customer! He is the ideal linking pin between user and IT department!"
+    },
+    {
+      "name": "Talitha den Butter, Support Engineer at OfficeGrip B.V.",
+      "reference": "Despite the short period we worked together, it was quickly apparent that Roel is a good teamplayer you can count on 100%. He doesn't run away from problems but goes out of his way to solve them."
     }
   ]
 }
