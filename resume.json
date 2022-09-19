@@ -37,9 +37,10 @@
       "endDate": "",
       "summary": "Fill in some compelling but short line of text",
       "highlights": [
-        "Microsoft 365 management",
-        "Automation development",
-        "Script development"
+        "Development of a Send-MailMessage replacement using MS Graph for use in AD password expiry emails",
+        "Daily Microsoft 365 management",
+        "Daily Automation development",
+        "Daily Script development"
       ]
     },
     {
