@@ -80,6 +80,17 @@
       "courses": [
         "ICT Beheer niveau 4"
       ]
+    },
+    {
+      "institution": "Mollerlyceum",
+      "url": "https://mollerjuvenaat.nl/",
+      "area": "",
+      "studyType": "VMBO",
+      "startDate": "2004",
+      "endDate": "2008",
+      "courses": [
+        ""
+      ]
     }
   ],
   "skills": [
