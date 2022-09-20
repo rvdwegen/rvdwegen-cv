@@ -3,7 +3,7 @@ name: Generate resume
 on:
   push:
     paths:
-      - '**.json'
+      - 'resume.json'
 
 jobs:
   check_run:
