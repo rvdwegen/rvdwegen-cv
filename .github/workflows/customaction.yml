@@ -23,7 +23,7 @@ jobs:
     needs: check_run
     steps:
       - uses: actions/checkout@v2
-      - uses: rvdwegen/action-jsonresume-convert@v0.1.2-alpha
+      - uses: rvdwegen/action-jsonresume-convert@v0.1.3-alpha
         name: Export resume as HTML/PDF
         with:
           theme: kendall
