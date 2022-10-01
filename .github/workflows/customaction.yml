@@ -41,6 +41,8 @@ jobs:
             git add index.html
             git commit -m "[ci skip] chore(index.html): update resume page."
             echo ::set-output name=exit_code::0
+          else
+            echo ::set-output name=exit_code::1
           if [ -n "$(git status --porcelain resume.pdf)" ]; then
             git add resume.pdf
             git commit -m "[ci skip] chore(resume.pdf): update resume PDF."
