@@ -1,4 +1,4 @@
-name: Generate resume
+name: Custom Action
  
 on:
   push:
