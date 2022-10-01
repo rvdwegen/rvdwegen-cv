@@ -5,6 +5,8 @@ on:
     paths:
       - 'resume.json'
       
+  workflow_dispatch:
+      
 env:
   RESOURCE_GROUP: 'RG-Connectivity'
   STORAGE_ACCOUNT: 'stocvrvdwegen'
