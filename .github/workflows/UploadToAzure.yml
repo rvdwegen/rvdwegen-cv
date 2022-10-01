@@ -1,0 +1,41 @@
+name: Upload to Azure
+
+on:
+  push:
+    paths:
+      - 'index2.html'
+
+env:
+  RESOURCE_GROUP: 'RG-Connectivity'
+  STORAGE_ACCOUNT: 'stocvrvdwegen'
+  CDN_PROFILE: 'sto-vdwegen-cdn'
+  CDN_ENDPOINT: 'cv-rvdwegen'
+
+jobs:
+  check_run:
+    runs-on: ubuntu-latest
+    if: "! contains(github.event.head_commit.message, '[ci skip]')"
+    steps:
+      - run: echo "${{ github.event.head_commit.message }}"
+
+  build:
+    runs-on: ubuntu-latest
+    needs: check_run
+    steps:
+      - uses: actions/checkout@v2
+      - uses: azure/login@v1
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+      - name: Upload to blob storage
+        uses: azure/CLI@v1
+        with:
+         inlineScript: |
+            az storage blob upload-batch --overwrite true --account-name $STORAGE_ACCOUNT --auth-mode key -d '$web' -s . --pattern "index2.html"
+      - name: Purge CDN endpoint
+        uses: azure/CLI@v1
+        with:
+         inlineScript: |
+           az cdn endpoint purge --content-paths  "/*" --profile-name $CDN_PROFILE --name $CDN_ENDPOINT --resource-group $RESOURCE_GROUP
+      - name: logout
+        run: |
+            az logout
