@@ -43,12 +43,14 @@ jobs:
             echo ::set-output name=exit_code::0
           else
             echo ::set-output name=exit_code::1
+          fi
           if [ -n "$(git status --porcelain resume.pdf)" ]; then
             git add resume.pdf
             git commit -m "[ci skip] chore(resume.pdf): update resume PDF."
             echo ::set-output name=exit_code::0
           else
             echo ::set-output name=exit_code::1
+          fi
       - name: Push changes
         uses: ad-m/github-push-action@master
         if: steps.commit.outputs.exit_code == 0
