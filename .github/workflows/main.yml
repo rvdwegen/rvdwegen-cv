@@ -55,12 +55,12 @@ jobs:
         uses: azure/CLI@v1
         with:
          inlineScript: |
-            az storage blob upload-batch --overwrite true --account-name ${{ env.STORAGE_ACCOUNT }}' --auth-mode key -d '$web' -s . --pattern "index.html"
+            az storage blob upload-batch --overwrite true --account-name $STORAGE_ACCOUNT --auth-mode key -d '$web' -s . --pattern "index.html"
       - name: Purge CDN endpoint
         uses: azure/CLI@v1
         with:
          inlineScript: |
-           az cdn endpoint purge --content-paths  "/*" --profile-name ${{ env.CDN_PROFILE }}' --name ${{ env.CDN_ENDPOINT }}' --resource-group ${{ env.RESOURCE_GROUP }}'
+           az cdn endpoint purge --content-paths  "/*" --profile-name $CDN_PROFILE --name $CDN_ENDPOINT --resource-group $RESOURCE_GROUP
       - name: logout
         run: |
             az logout
