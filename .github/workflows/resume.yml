@@ -1,4 +1,4 @@
-name: Generate resume
+name: Generate resume2
  
 on:
   push:
