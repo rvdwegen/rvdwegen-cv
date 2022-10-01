@@ -1,4 +1,4 @@
-name: Generate resume
+name: Convert JSON
  
 on:
   push:
