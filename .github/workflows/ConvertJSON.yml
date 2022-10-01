@@ -23,15 +23,15 @@ jobs:
           theme: kendall
           resume_filepath: resume.json
           # modifies the index.html in-place
-          output_filepath: index.html
+          output_filepath: index2.html
       - name: Commit published HTML
         id: commit
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          if [ -n "$(git status --porcelain index.html)" ]; then
-            git add index.html
-            git commit -m "[ci skip] chore(index.html): update resume page."
+          if [ -n "$(git status --porcelain index2.html)" ]; then
+            git add index2.html
+            git commit -m "[ci skip] chore(index2.html): update resume page."
             echo ::set-output name=exit_code::0
           else
             echo ::set-output name=exit_code::1
@@ -39,17 +39,17 @@ jobs:
       - name: html to pdf
         uses: fifsky/html-to-pdf-action@master
         with:
-          htmlFile: index.html
-          outputFile: resume.pdf
+          htmlFile: index2.html
+          outputFile: resume2.pdf
           pdfOptions: '{"format": "A4", "margin": {"top": "10mm", "left": "10mm", "right": "10mm", "bottom": "10mm"}}'
       - name: Commit converted PDF
         id: commit-pdf
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          if [ -n "$(git status --porcelain resume.pdf)" ]; then
-            git add resume.pdf
-            git commit -m "[ci skip] chore(resume.pdf): update PDF export."
+          if [ -n "$(git status --porcelain resume2.pdf)" ]; then
+            git add resume2.pdf
+            git commit -m "[ci skip] chore(resume2.pdf): update PDF export."
             echo ::set-output name=exit_code::0
           else
             echo ::set-output name=exit_code::1
