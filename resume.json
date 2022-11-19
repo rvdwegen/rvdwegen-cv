@@ -37,10 +37,9 @@
       "endDate": "",
       "summary": "Fill in some compelling but short line of text",
       "highlights": [
+        "Planning and execution of our organizations migration from DAP to GDAP",
         "Development of a Send-MailMessage replacement using MS Graph for use in AD password expiry emails",
-        "Daily Microsoft 365 management",
-        "Daily Automation development",
-        "Daily Script development"
+        "Microsoft 365 management"
       ]
     },
     {
