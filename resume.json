@@ -31,10 +31,22 @@
   "work": [
     {
       "name": "OfficeGrip B.V.",
+      "position": "Junior Automation Engineer",
+      "url": "https://officegrip.nl",
+      "startDate": "2022-12-01",
+      "endDate": "",
+      "summary": "Fill in some compelling but short line of text",
+      "highlights": [
+          "Automation development",
+          "Planning and executing the organizations move to GDAP"
+      ]
+    },
+    {
+      "name": "OfficeGrip B.V.",
       "position": "Support Engineer",
       "url": "https://officegrip.nl",
       "startDate": "2021-03-01",
-      "endDate": "",
+      "endDate": "2022-11-30",
       "summary": "Fill in some compelling but short line of text",
       "highlights": [
         "Planning and execution of our organizations migration from DAP to GDAP",
