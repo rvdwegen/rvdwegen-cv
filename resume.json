@@ -17,11 +17,6 @@
     },
     "profiles": [
       {
-        "network": "",
-        "username": "PDF resume",
-        "url": "https://github.com/rvdwegen/rvdwegen-cv/raw/main/resume.pdf"
-      },
-      {
         "network": "Github",
         "username": "rvdwegen",
         "url": "https://github.com/rvdwegen"
@@ -30,6 +25,11 @@
         "network": "LinkedIn",
         "username": "roel-van-der-wegen",
         "url": "https://www.linkedin.com/in/roel-van-der-wegen-b3850616a/"
+      },
+      {
+        "network": "",
+        "username": "PDF resume",
+        "url": "https://github.com/rvdwegen/rvdwegen-cv/raw/main/resume.pdf"
       }
     ]
   },
