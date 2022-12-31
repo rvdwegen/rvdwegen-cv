@@ -17,8 +17,8 @@
     },
     "profiles": [
       {
-        "network": "Website",
-        "username": "PDF",
+        "network": "",
+        "username": "PDF resume",
         "url": "https://github.com/rvdwegen/rvdwegen-cv/raw/main/resume.pdf"
       },
       {
