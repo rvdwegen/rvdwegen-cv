@@ -9,8 +9,8 @@
     "url": "https://cv.vdwegen.app",
     "summary": "I'm a Netherlands based IT guy, tech enthusiast and scripter creating novel solutions to every day problems in the MSP space",
     "location": {
-      "address": "Antwerpsestraatweg 365",
-      "postalCode": "4625AA",
+      "address": "N/A",
+      "postalCode": "N/A",
       "city": "Bergen op Zoom",
       "countryCode": "NL",
       "region": "Noord-Brabant"
@@ -40,9 +40,9 @@
       "url": "https://officegrip.nl",
       "startDate": "2022-12-01",
       "endDate": "",
-      "summary": "Fill in some compelling but short line of text",
+      "summary": "As part of the Business Innovations team I am currently the SME for GDAP and SAM. I also keep up to date with any technical changes Microsoft is planning on the Partner side. An average day will usually consist of helping colleagues with automation related matters such as manipulating or requesting data in bulk over all our customer environments.",
       "highlights": [
-          "Automation development",
+          "Powershell/Graph API development",
           "Implementation of the Secure App Model",
           "Planning and executing the organizations move to GDAP"
       ]
