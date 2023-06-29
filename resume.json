@@ -53,7 +53,7 @@
       "url": "https://officegrip.nl",
       "startDate": "2021-03-01",
       "endDate": "2022-11-30",
-      "summary": "Fill in some compelling but short line of text",
+      "summary": "Delivering daily support to end users. Weekly onsite visits at the Mauritshuis museum.",
       "highlights": [
         "Planning and execution of our organizations migration from DAP to GDAP",
         "Development of a Send-MailMessage replacement using MS Graph for use in AD password expiry emails",
@@ -66,7 +66,7 @@
       "url": "https://www.pmi.com/",
       "startDate": "2018-05-01",
       "endDate": "2021-02-25",
-      "summary": "Fill in some compelling but short line of text",
+      "summary": "Responsible for all end user IT related matters on location.",
       "highlights": [
         "Devicemanagement",
         "End user support",
@@ -79,7 +79,7 @@
       "url": "https://www.mammoet.com/",
       "startDate": "2018-03",
       "endDate": "2018-05",
-      "summary": "Fill in some compelling but short line of text",
+      "summary": "Short project concerning a migration to Bitlocker enabled devices.",
       "highlights": [
         "Devicemanagement",
         "End user support"
